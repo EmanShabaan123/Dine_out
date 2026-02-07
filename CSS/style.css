@@ -97,7 +97,7 @@ nav .offcanvas-body .social ul li a{
     background-color: azure;
     transition-duration: 0.3s;
 }
-nav .offcanvas-body .social ul:nth-of-type(2){
+nav .offcanvas-body .social ul li:nth-of-type(2){
     transform: translateX(-20px);
     opacity: 0;
     transition-duration: 0.8s;
