@@ -1,0 +1,63 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+h1 ,
+h2 ,
+h3 ,
+h4 ,
+h5 ,
+h6{
+      font-family: "Dancing Script", cursive;
+}
+:root{
+   --color-- : #F1B601 ;
+}
+span.text{
+    z-index: 2;
+    position: relative;
+    transition-duration: 1s;
+}
+#About_us ,
+#Menu ,
+#Team ,
+#Team .row .item .text{
+    background: #0f2027 ;
+    background: -webkit-linear-gradient(to right,#2c5364,#203a43,#0f2027);
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+}
+ .head h4 {
+    color: var(--color--);
+    font-size: 25px;
+}
+ .head p{
+    font-size: 40px;
+    color: azure;
+    margin: 0px;
+}
+.head .bf {
+    position: relative;
+    padding: 0px 7px;
+    display: inline-block;
+    margin: 0px 2px;
+}
+ .head .bf img{
+    position: relative;
+    display: block;
+}
+.head .bf::before ,
+.head .bf::after{
+    content: " ";
+    display: block;
+    width: 80px;
+    height: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    background-color: azure;
+}
+ .head .bf::before{
+    right: 100%;
+}
+ .head .bf::after{
+    left: 100%;
+} 

@@ -1,0 +1,314 @@
+@media (max-width: 1300px) {
+    header nav button{
+    width: 40px;
+    height: 30px;
+    padding: 2px 0px;
+    }
+    header .carousel-inner .carousel-item .content{
+        flex-basis: 100%;
+    }
+    header .carousel-inner .carousel-item .content h2 {
+    font-size: 40px;
+    }
+    header .carousel-inner .carousel-item .content p{
+    width: 75%;
+    font-size: 13px;
+    }
+    header .carousel-control-prev ,
+    header .carousel-control-next {
+    height: 40px;
+    width: 40px;
+    bottom: 15px;
+    }
+    header .content2 .row .image img{
+        display: none;
+    }
+    header .content3 .row .image img{
+        display: none;
+    }
+    #About_us .row  .box::after{
+    width: 55%;
+}
+    #About_us .row .item .box .ph {
+    font-size: 18px;
+    font-weight: 400;
+    }
+    #About_us .row .item > p{
+    font-size: 12px;
+    }
+    #About_us .row img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    }
+    #About_us .row .col-6{
+        width: 100%;
+    }
+    #About_us .row .part2{
+    padding: 0px;
+    }
+    #About_us .row .part2 .item{
+        aspect-ratio: 20/15;
+    }
+    #About_us .row .part2 .item::before{
+        width: 90px;
+        height: 90px;
+    }
+    #Testimonials{
+        background-image: url("../photos/video_image-min.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #Testimonials video{
+        display: none ;
+    }
+    #Testimonials .container h2{
+        font-size: 25px;
+    }
+    #Testimonials .container p{
+        font-size: 14px;
+    }
+    #Menu .nav-tabs .nav-item:first-child .nav-link{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0px;
+    }
+    #Menu .nav-tabs .nav-item:last-child .nav-link{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    } 
+    #Menu .nav-tabs .nav-item button.nav-link::after{
+    border-right: 10px solid transparent;
+    border-bottom: 18px solid white;
+    border-left: 10px solid transparent;
+    z-index: 6;
+    bottom: 0%;
+    left: 50%;
+    transition-duration: 0.5s;
+    transform: translateX(-50%) translateY(18px);
+    }
+    #Menu .nav-tabs .nav-item button.nav-link.active::after{
+       transform: translateX(-50%) translateY(0px);
+    }
+    #Menu .nav-tabs{
+        overflow-x: scroll;
+    }
+    #Menu .nav-tabs::-webkit-scrollbar{
+        display: none;
+    }
+    #Order .img .item2{
+        display: none;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    #About_us .row .part2{
+    padding: 5px;
+    }
+    #About_us .row .part2 .item{
+        aspect-ratio: 16/9;
+    }
+    #About_us .row .part2 .item::before{
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    header .carousel-inner .carousel-item .content h2 {
+    font-size: 45px;
+    }
+    header .carousel-inner .carousel-item .content p{
+    font-size: 12px;
+    }
+    header nav button{
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+    }
+    #About_us .row img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    }
+    #About_us .row .col-6{
+        width: 50%;
+    }
+    #About_us .row .part2{
+    padding: 10px;
+    }
+    #Testimonials .container p{
+        font-size: 14px;
+    }
+    #Menu .tab-content .row .item{
+    width: 230px;
+    margin: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    header .carousel-inner .carousel-item .content{
+        flex-basis: 75%;
+    }
+    header .carousel-inner .carousel-item .content h2 {
+    font-size: 50px;
+    }
+    header .carousel-inner .carousel-item .content p{
+    width: 75%;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    
+    }
+    header .carousel-control-prev ,
+    header .carousel-control-next {
+    height: 50px;
+    width: 50px;
+    bottom: 30px;
+    }
+    header .content2 .row .image img{
+        display: flex;
+    }
+    header .content3 .row .image img{
+        display: flex;
+    }
+    #About_us .row h5{
+        font-size: 18px;
+    }
+    #About_us .row .part2 .item{
+    aspect-ratio: 12/9;
+    width: 100%;
+    }
+    #Testimonials .container .row .item{
+    width: 165px;
+    }
+    #Testimonials .container h3{
+        font-size: 18px;
+    }
+    #Testimonials video{
+        display: block;
+    }
+    #Team .row .item .text h5{
+        font-size: 15px;
+    }
+    #Team .row .item .text{
+        width: 75%;
+    }
+    #Team .row .item .text p{
+        font-size: 15px;
+    }
+    #Order .row .item2 img{
+       width: 100%;
+    }
+    #Order .img .item2{
+        display: initial;
+    }
+}
+@media (min-width: 992px) and (max-width: 1300px) {
+    header .carousel-inner .carousel-item .content h2 {
+    font-size: 70px;
+    }
+    header .carousel-inner .carousel-item .content p{
+    width: 62%;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    }
+    #About_us .row  .box::after{
+    width: 45%;
+}
+    #About_us .row .item .box .ph {
+    font-size: 22px;
+    font-weight: 500;
+    }
+    #About_us .row .item > p{
+    font-size: 14px;
+    }
+    #About_us .row img{
+    margin-right: 12px;
+    }
+    #About_us .row h5{
+        font-size: 22px;
+    }
+    #About_us .row .part2 .item{
+    padding: 10px;
+    aspect-ratio: 16/9;
+    width: 100%;
+    }
+    #Testimonials .container .row .item{
+    width: 220px;
+    }
+    #Testimonials .container h3{
+        font-size: 23px;
+    }
+    #Menu .nav-tabs .nav-item:first-child .nav-link{
+
+    border-bottom-left-radius: 0px;
+
+     border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+    }
+    #Menu .nav-tabs .nav-item:last-child .nav-link{
+        border-top-right-radius: 0px;
+      border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+    } 
+    #Menu .nav-tabs .nav-item button.nav-link::after{
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-right: 18px solid white;
+    z-index: 6;
+    top: 50%;
+    left: 65%; 
+    transition-duration: 0.5s;
+    transform: translateY(-50%) translateX(18px);
+    }
+    #Menu .nav-tabs .nav-item button.nav-link.active::after{
+     transform: translateY(-50%) translateX(0px);
+    }
+    #Menu .tab-content .row .item{
+    width: 200px;
+    }
+      #Menu .nav-tabs{
+        overflow-x: visible !important;
+    }
+    #Team .row .item{
+    width: 280px;
+    }
+    #Team .row .item .text p{
+        font-size: 23px;
+    }
+    #Team .row .item .text h5{
+        font-size: 20px;
+    }
+    #Team .row .item .text{
+        width: 80%;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+    #Testimonials .container .row .item{
+    width: 250px;
+    }
+    #Testimonials .container p{
+        font-size: 16px;
+    }
+    #Testimonials .container h3{
+        font-size: 25px;
+    }
+    #Menu .tab-content .row .item{
+    width: 250px;
+    margin: auto;
+    }
+      #Menu .nav-tabs{
+        overflow-x: visible !important;
+    }
+    #Team .row .item{
+    width: 300px;
+    }
+}
