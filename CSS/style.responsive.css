@@ -87,10 +87,10 @@
     bottom: 0%;
     left: 50%;
     transition-duration: 0.5s;
-    transform: translateX(-50%) translateY(18px);
+    transform:  translateY(40px) translateX(-50%);
     }
     #Menu .nav-tabs .nav-item button.nav-link.active::after{
-       transform: translateX(-50%) translateY(0px);
+       transform: translateX(-50%) translateY(24px);
     }
     #Menu .nav-tabs{
         overflow-x: scroll;
@@ -289,6 +289,7 @@
     #Team .row .item .text{
         width: 80%;
     }
+  
 }
 
 @media (min-width: 1181px) and (max-width: 1300px) {
