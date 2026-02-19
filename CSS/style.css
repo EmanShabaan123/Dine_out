@@ -157,8 +157,8 @@ header .carousel-inner .carousel-item:nth-of-type(3){
     background-image: 
     url("../photos/chef-bg.png") ,
     
-    linear-gradient(to right,rgba(44, 83, 100, 0.75) ,
-    rgba(32, 58, 67, 0.75) ,
+    linear-gradient(to right,rgba(15, 32, 39, 0.75) ,
+    rgba(15, 32, 39, 0.75) ,
     rgba(15, 32, 39,0.75)
     )  ;
 }  
